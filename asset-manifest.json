@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/kim-porfolio/static/css/main.1261ce05.css",
-    "main.js": "/kim-porfolio/static/js/main.7e9fd8ff.js",
-    "static/media/avatar.jpg": "/kim-porfolio/static/media/avatar.e881425702afe5d16ed4.jpg",
-    "static/media/woman.gif": "/kim-porfolio/static/media/woman.9add8668c859413ca682.gif",
-    "static/media/about-me.png": "/kim-porfolio/static/media/about-me.8fad3c9254eb531651c2.png",
-    "static/media/email.png": "/kim-porfolio/static/media/email.ff060c9f704eeb19daf9.png",
-    "static/media/home.png": "/kim-porfolio/static/media/home.c31978be5e267964073c.png",
-    "static/media/instagram.png": "/kim-porfolio/static/media/instagram.49606f6b7e8f81b027ca.png",
-    "static/media/smile.png": "/kim-porfolio/static/media/smile.0ea69d6d6608d488f3cc.png",
-    "static/media/linkedin.png": "/kim-porfolio/static/media/linkedin.635b04592dd153ae7373.png",
-    "static/media/smile-heart.png": "/kim-porfolio/static/media/smile-heart.235d9cd45dcd8a62cc2f.png",
-    "index.html": "/kim-porfolio/index.html",
-    "main.1261ce05.css.map": "/kim-porfolio/static/css/main.1261ce05.css.map",
-    "main.7e9fd8ff.js.map": "/kim-porfolio/static/js/main.7e9fd8ff.js.map"
+    "main.css": "/kim-portfolio/static/css/main.1261ce05.css",
+    "main.js": "/kim-portfolio/static/js/main.b9e008b7.js",
+    "static/media/avatar.jpg": "/kim-portfolio/static/media/avatar.e881425702afe5d16ed4.jpg",
+    "static/media/woman.gif": "/kim-portfolio/static/media/woman.9add8668c859413ca682.gif",
+    "static/media/about-me.png": "/kim-portfolio/static/media/about-me.8fad3c9254eb531651c2.png",
+    "static/media/email.png": "/kim-portfolio/static/media/email.ff060c9f704eeb19daf9.png",
+    "static/media/home.png": "/kim-portfolio/static/media/home.c31978be5e267964073c.png",
+    "static/media/instagram.png": "/kim-portfolio/static/media/instagram.49606f6b7e8f81b027ca.png",
+    "static/media/smile.png": "/kim-portfolio/static/media/smile.0ea69d6d6608d488f3cc.png",
+    "static/media/linkedin.png": "/kim-portfolio/static/media/linkedin.635b04592dd153ae7373.png",
+    "static/media/smile-heart.png": "/kim-portfolio/static/media/smile-heart.235d9cd45dcd8a62cc2f.png",
+    "index.html": "/kim-portfolio/index.html",
+    "main.1261ce05.css.map": "/kim-portfolio/static/css/main.1261ce05.css.map",
+    "main.b9e008b7.js.map": "/kim-portfolio/static/js/main.b9e008b7.js.map"
   },
   "entrypoints": [
     "static/css/main.1261ce05.css",
-    "static/js/main.7e9fd8ff.js"
+    "static/js/main.b9e008b7.js"
   ]
 }
