@@ -150,8 +150,32 @@
 
 }
 
+.footer-content{
+  
+}
+
+
 .footer-items{
+  display: flex;
+  column-gap: 2rem;
   list-style: none;
+  
+}
+
+.footer-a{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.email{
+  display:flex;
+}
+
+.email-address{
+  margin:2px;
+  margin-left: 5px;
+  
 }
 
 

@@ -6,6 +6,9 @@ import aboutMe from './images/about-me.png';
 import smileHeart from './images/smile-heart.png';
 import home from './images/home.png';
 import woman from './images/woman.gif';
+import linkedin from './images/linkedin.png';
+import insta from './images/instagram.png';
+import email from './images/email.png';
 
 
 function App() {
@@ -13,8 +16,8 @@ function App() {
     <div className="App">
       <header className="nav-bar">
         <ul>
-          <li><a href="default.asp"><img src={home} alt="smile-icon" className='icon'/></a></li>
-          <li><a href="./main-pages/Me_And_Us.js"><img src={smileHeart} alt="smile-icon" className='icon'/></a></li>
+          <li><a href="default.asp"><img src={home} alt="smile-icon" className='icon' style={{width:'70px',height:'70px'}}/></a></li>
+          <li><a href="./main-pages/Me_And_Us.js"><img src={smileHeart} alt="smile-icon" className='icon' style={{width:'70px',height:'70px'}}/></a></li>
         </ul>
       </header>
       
@@ -61,9 +64,22 @@ function App() {
             <p>&copy; 2023 Kim's Portfolio. All rights reserved.</p>
             <nav>
               <ul className="footer-items">
-                <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Email</a></li>
+                <li>
+                  <img src={linkedin} alt="linkedin-icon" className='icon' id='linkedin' style={{width:'20px',height:'20px'}}/>
+                  <a href="https://www.linkedin.com/in/kim-trinh-968236165/" className="footer-a">LinkedIn</a>
+                </li>
+                <li>
+                  <img src={insta} alt="linkedin-icon" className='icon' id='linkedin' style={{width:'20px',height:'20px'}}/>
+                  <a href="#" className="footer-a">Instagram</a>
+                </li>
+                <li className='email'>
+                  <img src={email} alt="linkedin-icon" className='icon' id='linkedin' style={{width:'28px',height:'28px'}}/>
+                  <a href="#" className="footer-a">Email:</a>
+                  <p className='email-address'>mykim250795@gmail.com</p>
+                </li>
+                <li>
+                  
+                </li>
               </ul>
             </nav>
           </div>
