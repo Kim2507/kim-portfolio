@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/kim-porfolio/static/css/main.b35e5746.css",
+    "main.js": "/kim-porfolio/static/js/main.41d05cb7.js",
+    "static/media/avatar.jpg": "/kim-porfolio/static/media/avatar.e881425702afe5d16ed4.jpg",
+    "static/media/woman.gif": "/kim-porfolio/static/media/woman.9add8668c859413ca682.gif",
+    "static/media/about-me.png": "/kim-porfolio/static/media/about-me.8fad3c9254eb531651c2.png",
+    "static/media/home.png": "/kim-porfolio/static/media/home.c31978be5e267964073c.png",
+    "static/media/smile.png": "/kim-porfolio/static/media/smile.0ea69d6d6608d488f3cc.png",
+    "static/media/smile-heart.png": "/kim-porfolio/static/media/smile-heart.235d9cd45dcd8a62cc2f.png",
+    "index.html": "/kim-porfolio/index.html",
+    "main.b35e5746.css.map": "/kim-porfolio/static/css/main.b35e5746.css.map",
+    "main.41d05cb7.js.map": "/kim-porfolio/static/js/main.41d05cb7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b35e5746.css",
+    "static/js/main.41d05cb7.js"
+  ]
+}
