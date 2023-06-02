@@ -151,7 +151,9 @@
 }
 
 .footer-content{
-  
+  border-color: #282c34;
+  border-style: solid;
+  border-radius: 5%;
 }
 
 

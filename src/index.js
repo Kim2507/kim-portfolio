@@ -19,10 +19,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import { BrowserRouter, Router, Routes, Route} from "react-router-dom";
+import { BrowserRouter, Router, Routes, Route } from "react-router-dom";
 import Home from "./main-pages/Home";
 import Our from "./main-pages/Our";
-
 
 // routes links the pages
 // <Route path='/careerinfo' element={<CareerInformation/>} />
@@ -34,7 +33,7 @@ ReactDOM.render(
         <Route index element={<Home />} />
         <Route path="/home/" element={<Home />} />
 
-        <Route path="/our" element={<Our />} />
+        <Route path="/us/" element={<Our />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

@@ -2,15 +2,15 @@ import { Route } from "react-router-dom";
 
 import React from "react";
 import "../App.css";
-import avatar from "../images/avatar.jpg";
-import smile from "../images/smile.png";
-import aboutMe from "../images/about-me.png";
-import smileHeart from "../images/smile-heart.png";
-import home from "../images/home.png";
-import woman from "../images/woman.gif";
-import linkedin from "../images/linkedin.png";
-import insta from "../images/instagram.png";
-import email from "../images/email.png";
+import avatar from "../images/home/avatar.jpg";
+import smile from "../images/home/smile.png";
+import aboutMe from "../images/home/about-me.png";
+import smileHeart from "../images/home/smile-heart.png";
+import home from "../images/home/home.png";
+import woman from "../images/home/woman.gif";
+import linkedin from "../images/home/linkedin.png";
+import insta from "../images/home/instagram.png";
+import email from "../images/home/email.png";
 
 function Home() {
   return (
@@ -18,7 +18,7 @@ function Home() {
       <header className="nav-bar">
         <ul>
           <li>
-            <a href="/home">
+            <a href="/home/">
               <img
                 src={home}
                 alt="smile-icon"
@@ -29,7 +29,7 @@ function Home() {
           </li>
 
           <li>
-            <a href="/our">
+            <a href="/us/">
               <img
                 src={smileHeart}
                 alt="smile-icon"
@@ -111,6 +111,21 @@ function Home() {
             </p>
           </article>
         </div>
+
+        {/* <div className="projects">
+          <h2>Projects</h2>
+          <div class="pics-container">
+            <div class="pics-item">Item 1</div>
+            <div class="pics-item">Item 2</div>
+            <div class="pics-item">Item 3</div>
+            <div class="pics-item">Item 4</div>
+            <div class="pics-item">Item 5</div>
+            <div class="pics-item">Item 6</div>
+            <div class="pics-item">Item 7</div>
+            <div class="pics-item">Item 8</div>
+            <div class="pics-item">Item 9</div>
+          </div>
+        </div> */}
       </body>
 
       <footer>
@@ -142,8 +157,8 @@ function Home() {
                     id="linkedin"
                     style={{ width: "20px", height: "20px" }}
                   />
-                  <a href="#" className="footer-a">
-                    Instagram
+                  <a href="https://github.com/Kim2507" className="footer-a">
+                    Github
                   </a>
                 </li>
                 <li className="email">
