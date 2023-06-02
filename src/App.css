@@ -188,3 +188,33 @@
     transform: rotate(360deg);
   }
 }
+
+/* Styles for screens smaller than 600px */
+@media (max-width: 600px) {
+  .box {
+    width: 100%;
+    /* Take up full width on small screens */
+    height: 150px;
+    font-size: 16px;
+  }
+}
+
+/* Styles for screens between 601px and 1200px */
+@media (min-width: 601px) and (max-width: 1200px) {
+  .box {
+    width: 30%;
+    /* Adjust width as per your design */
+    height: 250px;
+    font-size: 18px;
+  }
+}
+
+/* Styles for screens larger than 1200px */
+@media (min-width: 1201px) {
+  .box {
+    width: 20%;
+    /* Adjust width as per your design */
+    height: 300px;
+    font-size: 20px;
+  }
+}

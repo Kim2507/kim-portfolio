@@ -16,28 +16,27 @@
 // // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 // reportWebVitals();
 
-
-
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-
-
-
+import { BrowserRouter, Router, Routes, Route} from "react-router-dom";
+import Home from "./main-pages/Home";
+import Our from "./main-pages/Our";
 
 
 // routes links the pages
 // <Route path='/careerinfo' element={<CareerInformation/>} />
+// ReactDOM.render(<App />, document.getElementById("root"));
 ReactDOM.render(
- <App/>,
+  <React.StrictMode>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="/home/" element={<Home />} />
+
+        <Route path="/our" element={<Our />} />
+      </Routes>
+    </BrowserRouter>
+  </React.StrictMode>,
   document.getElementById("root")
 );
-
-
-
-
-
-
-
-
-
