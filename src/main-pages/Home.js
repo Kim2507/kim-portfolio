@@ -1,5 +1,4 @@
 import { Route } from "react-router-dom";
-
 import React from "react";
 import "../App.css";
 import avatar from "../images/home/avatar.jpg";
