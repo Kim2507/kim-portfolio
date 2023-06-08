@@ -20,7 +20,7 @@ function App() {
       <nav className="nav-bar">
         <ul>
           <li>
-            <Link to="/">
+            <Link to="/kim-portfolio/">
               <img
                 src={home}
                 alt="smile-icon"
@@ -30,7 +30,7 @@ function App() {
             </Link>
           </li>
           <li>
-            <Link to="/us">
+            <Link to="/kim-portfolio/us">
               <img
                 src={smileHeart}
                 alt="smile-icon"
@@ -42,8 +42,8 @@ function App() {
         </ul>
       </nav>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/us/" element={<Our />} />
+        <Route path="/kim-portfolio/" element={<Home />} />
+        <Route path="/kim-portfolio/us/" element={<Our />} />
       </Routes>
     </div>
   );
