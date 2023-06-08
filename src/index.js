@@ -27,6 +27,10 @@ import Our from "./main-pages/Our";
 // <Route path='/careerinfo' element={<CareerInformation/>} />
 // ReactDOM.render(<App />, document.getElementById("root"));
 ReactDOM.render(
-  <App />, 
-    document.getElementById("root")
+  <React.StrictMode>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </React.StrictMode>,
+  document.getElementById("root")
 );

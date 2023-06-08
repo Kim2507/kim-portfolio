@@ -1,4 +1,4 @@
-import { Route } from "react-router-dom";
+import { Route, Routes, Link } from "react-router-dom";
 import React from "react";
 import "../App.css";
 import avatar from "../images/home/avatar.jpg";
@@ -10,14 +10,15 @@ import woman from "../images/home/woman.gif";
 import linkedin from "../images/home/linkedin.png";
 import insta from "../images/home/instagram.png";
 import email from "../images/home/email.png";
+import Our from "./Our";
 
 function Home() {
   return (
     <div className="App">
-      <header className="nav-bar">
+      {/* <header className="nav-bar">
         <ul>
           <li>
-            <a href="/home/">
+            <a href="/">
               <img
                 src={home}
                 alt="smile-icon"
@@ -38,7 +39,7 @@ function Home() {
             </a>
           </li>
         </ul>
-      </header>
+      </header> */}
 
       <body className="body-flex">
         <div className="grid-body">

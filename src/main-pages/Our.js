@@ -1,10 +1,9 @@
 import React from "react";
 import "../css/our.css";
-import cmu from '../images/family/IMG_2328.jpg';
-import promhome from '../images/family/IMG_2417.jpg';
-import nyc from '../images/family/IMG_2374.jpg';
-import nymuseum from '../images/family/IMG_2377.jpg';
-
+import cmu from "../images/family/IMG_2328.jpg";
+import promhome from "../images/family/IMG_2417.jpg";
+import nyc from "../images/family/IMG_2374.jpg";
+import nymuseum from "../images/family/IMG_2377.jpg";
 
 function Our() {
   return (
