@@ -1,9 +1,21 @@
 import "./App.css";
 import React from "react";
+import { BrowserRouter, Router, Routes, Route } from "react-router-dom";
+import Home from "./main-pages/Home";
+import Our from "./main-pages/Our";
 
 function App() {
   return (
-    <div>Hi from App.js</div>
+    <React.StrictMode>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="/home/" element={<Home />} />
+
+          <Route path="/us/" element={<Our />} />
+        </Routes>
+      </BrowserRouter>
+    </React.StrictMode>
   );
 }
 
